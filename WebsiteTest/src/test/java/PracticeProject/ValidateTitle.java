@@ -33,7 +33,7 @@ public class ValidateTitle extends Base {
 		
 		LandingPage land =new LandingPage(driver);
 		
-		Assert.assertEquals(land.checkTitle().getText(),"FEATURED COURSES" );
+		Assert.assertEquals(land.checkTitle().getText(),"FEATURED COURSES 123" );
 		//Assert.assertTrue("", true);
 		System.out.println(land.checkTitle().getText());
 		Log.info("Successfully validate Title");
@@ -42,5 +42,6 @@ public class ValidateTitle extends Base {
 	public void Ending()
 	{
 		driver.close();
+		driver=null;
 	}
 }

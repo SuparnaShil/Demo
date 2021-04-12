@@ -1,1 +1,3 @@
-13:30:06.290 [main] INFO  resources.Base - Successfully validate Title
+16:42:10.965 [main] INFO  resources.Base - Print text successfully
+16:42:33.056 [main] INFO  resources.Base - Initialize driver
+16:42:58.501 [main] INFO  resources.Base - Fatching data from data provider

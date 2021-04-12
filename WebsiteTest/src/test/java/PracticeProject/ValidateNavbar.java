@@ -36,6 +36,7 @@ public class ValidateNavbar extends Base {
 	public void Ending()
 	{
 		driver.close();
+		driver= null;
 	}
 }
  

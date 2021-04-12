@@ -1,8 +1,8 @@
-13:24:41.927 [main] INFO  resources.Base - Initialize driver
-13:25:16.245 [main] INFO  resources.Base - Fatching data from data provider
-13:26:02.812 [main] INFO  resources.Base - Print text successfully
-13:26:34.775 [main] INFO  resources.Base - Successfully validate Title
-13:28:51.616 [main] INFO  resources.Base - Initialize driver
-13:29:24.015 [main] INFO  resources.Base - Fatching data from data provider
-13:29:52.632 [main] INFO  resources.Base - Print text successfully
-13:30:06.179 [main] INFO  resources.Base - Print text successfully
+16:35:48.045 [main] INFO  resources.Base - Initialize driver
+16:36:08.773 [main] INFO  resources.Base - Fatching data from data provider
+16:36:08.960 [main] INFO  resources.Base - Successfully validate Title
+16:38:19.872 [main] INFO  resources.Base - Print text successfully
+16:38:28.835 [main] INFO  resources.Base - Print text successfully
+16:38:55.269 [main] INFO  resources.Base - Initialize driver
+16:39:26.916 [main] INFO  resources.Base - Fatching data from data provider
+16:42:04.008 [main] INFO  resources.Base - Print text successfully

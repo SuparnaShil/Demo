@@ -63,6 +63,7 @@ public class HomePage extends Base{
 	public void Ending()
 	{
 		driver.close();
+		driver= null;
 	}
 	
 	

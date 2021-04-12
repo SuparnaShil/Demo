@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="PracticeProject.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Validate The Title(failed)">
     <classes>
-      <class name="PracticeProject.HomePage">
+      <class name="PracticeProject.ValidateTitle">
         <methods>
-          <include name="initial"/>
+          <include name="basePageNavigation"/>
           <include name="Ending"/>
-          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="initial"/>
         </methods>
-      </class> <!-- PracticeProject.HomePage -->
+      </class> <!-- PracticeProject.ValidateTitle -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Validate The Title(failed) -->
+</suite> <!-- Failed suite [Suite] -->
