@@ -28,7 +28,7 @@ public class ValidateTitle extends Base {
 	}	
  
 	@Test
-	public void basePageNavigation() 
+	public void TitleValidation() 
 	{
 		
 		LandingPage land =new LandingPage(driver);

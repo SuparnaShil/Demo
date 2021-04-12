@@ -4,8 +4,9 @@
 
 	<listeners>
 		<listener class-name="PracticeProject.Listener"></listener>
+		<listener class-name="resources.ExtentReporterNG"></listener>
 	</listeners>	
-	
+
   <test thread-count="5" name="Home page Login Perform">
     <classes>
       <class name="PracticeProject.HomePage"/>

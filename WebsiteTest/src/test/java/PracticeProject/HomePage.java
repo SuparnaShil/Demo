@@ -24,7 +24,7 @@ public class HomePage extends Base{
 		
 	}	
 	@Test(dataProvider="getData")
-	public void basePageNavigation(String username, String password, String text) throws IOException, InterruptedException
+	public void LoginValidate(String username, String password, String text) throws IOException, InterruptedException
 	{
 	
 		driver.get(prop.getProperty("URL")); //Data provider annotation
@@ -46,6 +46,7 @@ public class HomePage extends Base{
 		//row stands for how many different data types test should run
 		//like username,pass,text etc
 		//Object[][] data=new Object[1][2]; //array index out of bound 
+		
 		Object[][] data=new Object[2][3];
 		
 		data[0][0]="suparnashil@gmail.com";

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="80422" started-at="2021-04-12T16:41:38 BDT" finished-at="2021-04-12T16:42:59 BDT">
+  <suite name="Suite" duration-ms="196006" started-at="2021-04-12T17:10:37 BDT" finished-at="2021-04-12T17:13:53 BDT">
     <groups>
     </groups>
-    <test name="Home page Login Perform" duration-ms="32533" started-at="2021-04-12T16:41:38 BDT" finished-at="2021-04-12T16:42:11 BDT">
+    <test name="Home page Login Perform" duration-ms="58374" started-at="2021-04-12T17:10:37 BDT" finished-at="2021-04-12T17:11:35 BDT">
       <class name="PracticeProject.HomePage">
-        <test-method status="PASS" signature="initial()[pri:0, instance:PracticeProject.HomePage@20deea7f]" name="initial" is-config="true" duration-ms="4726" started-at="2021-04-12T16:41:39 BDT" finished-at="2021-04-12T16:41:43 BDT">
+        <test-method status="PASS" signature="initial()[pri:0, instance:PracticeProject.HomePage@441772e]" name="initial" is-config="true" duration-ms="4653" started-at="2021-04-12T17:10:37 BDT" finished-at="2021-04-12T17:10:42 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initial -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PracticeProject.HomePage@20deea7f]" name="basePageNavigation" duration-ms="20242" started-at="2021-04-12T16:41:43 BDT" data-provider="getData" finished-at="2021-04-12T16:42:04 BDT">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PracticeProject.HomePage@441772e]" name="basePageNavigation" duration-ms="34901" started-at="2021-04-12T17:10:42 BDT" data-provider="getData" finished-at="2021-04-12T17:11:17 BDT">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PracticeProject.HomePage@20deea7f]" name="basePageNavigation" duration-ms="6969" started-at="2021-04-12T16:42:04 BDT" data-provider="getData" finished-at="2021-04-12T16:42:10 BDT">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PracticeProject.HomePage@441772e]" name="basePageNavigation" duration-ms="18411" started-at="2021-04-12T17:11:17 BDT" data-provider="getData" finished-at="2021-04-12T17:11:35 BDT">
           <params>
             <param index="0">
               <value>
@@ -53,35 +53,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="Ending()[pri:0, instance:PracticeProject.HomePage@20deea7f]" name="Ending" is-config="true" duration-ms="533" started-at="2021-04-12T16:42:10 BDT" finished-at="2021-04-12T16:42:11 BDT">
+        <test-method status="PASS" signature="Ending()[pri:0, instance:PracticeProject.HomePage@441772e]" name="Ending" is-config="true" duration-ms="338" started-at="2021-04-12T17:11:35 BDT" finished-at="2021-04-12T17:11:35 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ending -->
       </class> <!-- PracticeProject.HomePage -->
     </test> <!-- Home page Login Perform -->
-    <test name="Validated The Navigation Bar" duration-ms="18485" started-at="2021-04-12T16:42:11 BDT" finished-at="2021-04-12T16:42:30 BDT">
+    <test name="Validated The Navigation Bar" duration-ms="67050" started-at="2021-04-12T17:11:35 BDT" finished-at="2021-04-12T17:12:42 BDT">
       <class name="PracticeProject.ValidateNavbar">
-        <test-method status="PASS" signature="initial()[pri:0, instance:PracticeProject.ValidateNavbar@3ce1e309]" name="initial" is-config="true" duration-ms="17795" started-at="2021-04-12T16:42:11 BDT" finished-at="2021-04-12T16:42:29 BDT">
+        <test-method status="PASS" signature="initial()[pri:0, instance:PracticeProject.ValidateNavbar@4cc451f2]" name="initial" is-config="true" duration-ms="66435" started-at="2021-04-12T17:11:35 BDT" finished-at="2021-04-12T17:12:42 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initial -->
-        <test-method status="PASS" signature="BasepageNavbar()[pri:0, instance:PracticeProject.ValidateNavbar@3ce1e309]" name="BasepageNavbar" duration-ms="325" started-at="2021-04-12T16:42:29 BDT" finished-at="2021-04-12T16:42:29 BDT">
+        <test-method status="PASS" signature="BasepageNavbar()[pri:0, instance:PracticeProject.ValidateNavbar@4cc451f2]" name="BasepageNavbar" duration-ms="179" started-at="2021-04-12T17:12:42 BDT" finished-at="2021-04-12T17:12:42 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BasepageNavbar -->
-        <test-method status="PASS" signature="Ending()[pri:0, instance:PracticeProject.ValidateNavbar@3ce1e309]" name="Ending" is-config="true" duration-ms="360" started-at="2021-04-12T16:42:29 BDT" finished-at="2021-04-12T16:42:30 BDT">
+        <test-method status="PASS" signature="Ending()[pri:0, instance:PracticeProject.ValidateNavbar@4cc451f2]" name="Ending" is-config="true" duration-ms="427" started-at="2021-04-12T17:12:42 BDT" finished-at="2021-04-12T17:12:42 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ending -->
       </class> <!-- PracticeProject.ValidateNavbar -->
     </test> <!-- Validated The Navigation Bar -->
-    <test name="Validate The Title" duration-ms="29370" started-at="2021-04-12T16:42:30 BDT" finished-at="2021-04-12T16:42:59 BDT">
+    <test name="Validate The Title" duration-ms="70547" started-at="2021-04-12T17:12:42 BDT" finished-at="2021-04-12T17:13:53 BDT">
       <class name="PracticeProject.ValidateTitle">
-        <test-method status="PASS" signature="initial()[pri:0, instance:PracticeProject.ValidateTitle@5af3afd9]" name="initial" is-config="true" duration-ms="28453" started-at="2021-04-12T16:42:30 BDT" finished-at="2021-04-12T16:42:58 BDT">
+        <test-method status="PASS" signature="initial()[pri:0, instance:PracticeProject.ValidateTitle@5876a9af]" name="initial" is-config="true" duration-ms="69401" started-at="2021-04-12T17:12:42 BDT" finished-at="2021-04-12T17:13:52 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initial -->
-        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:PracticeProject.ValidateTitle@5af3afd9]" name="basePageNavigation" duration-ms="116" started-at="2021-04-12T16:42:58 BDT" finished-at="2021-04-12T16:42:58 BDT">
+        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:PracticeProject.ValidateTitle@5876a9af]" name="basePageNavigation" duration-ms="79" started-at="2021-04-12T17:13:52 BDT" finished-at="2021-04-12T17:13:52 BDT">
           <exception class="junit.framework.ComparisonFailure">
             <message>
               <![CDATA[expected:<...> but was:<... 123>]]>
@@ -125,7 +125,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="Ending()[pri:0, instance:PracticeProject.ValidateTitle@5af3afd9]" name="Ending" is-config="true" duration-ms="241" started-at="2021-04-12T16:42:59 BDT" finished-at="2021-04-12T16:42:59 BDT">
+        <test-method status="PASS" signature="Ending()[pri:0, instance:PracticeProject.ValidateTitle@5876a9af]" name="Ending" is-config="true" duration-ms="194" started-at="2021-04-12T17:13:53 BDT" finished-at="2021-04-12T17:13:53 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ending -->
